@@ -33,7 +33,7 @@ export default function Teaching() {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <img 
+              <Image 
                 src="/images/teaching/classroom.jpg" 
                 alt="Philosophy classroom discussion" 
                 className="w-full h-48 object-cover rounded-lg shadow-md"
@@ -111,7 +111,7 @@ export default function Teaching() {
               <div>
                 <h3 className="text-lg font-semibold text-slate-800 mb-2">Philosophy of Religion</h3>
                 <ul className="text-slate-700 space-y-1 text-sm">
-                  <li>Arguments for God's existence</li>
+                  <li>Arguments for God&apos;s existence</li>
                   <li>Divine attributes</li>
                   <li>Religious experience</li>
                   <li>Faith and reason</li>

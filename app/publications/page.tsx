@@ -13,7 +13,7 @@ export default function Publications() {
           <h2 className="text-2xl font-semibold text-slate-900 mb-6">Journal Articles</h2>
           <div className="space-y-8">
             <div className="bg-slate-50 p-6 rounded-lg">
-              <p className="text-slate-700 italic mb-2">Recent and forthcoming articles on Aristotelian metaphysics and Augustine's philosophical theology.</p>
+              <p className="text-slate-700 italic mb-2">Recent and forthcoming articles on Aristotelian metaphysics and Augustine&apos;s philosophical theology.</p>
               <p className="text-sm text-slate-600">Publication details will be updated as articles appear in print.</p>
             </div>
           </div>

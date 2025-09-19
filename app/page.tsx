@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="text-center mb-16">
         <div className="flex justify-center mb-8">
-          <img 
+          <Image 
             src="/images/profile.jpg" 
             alt="Professor Caleb Cohoe" 
             className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-slate-200"
@@ -62,7 +62,7 @@ export default function Home() {
         <div className="bg-blue-50 p-6 rounded-lg">
           <h3 className="text-xl font-semibold text-slate-900 mb-3">Research Areas</h3>
           <p className="text-slate-700 mb-4">
-            Exploring the nature of human and divine in Aristotle, and Augustine's relationship to ancient philosophy.
+            Exploring the nature of human and divine in Aristotle, and Augustine&apos;s relationship to ancient philosophy.
           </p>
           <Link href="/research" className="text-blue-700 hover:text-blue-900 font-medium">
             Learn more about my research →

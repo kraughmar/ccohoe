@@ -16,10 +16,10 @@ export default function Header() {
   ]
 
   return (
-    <header className="bg-white shadow-sm border-b border-slate-200">
-      <div className="max-w-4xl mx-auto px-4">
+    <header className="bg-white shadow-md border-b border-gray-200 sticky top-0 z-50">
+      <div className="max-w-4xl mx-auto px-6">
         <div className="flex justify-between items-center py-6">
-          <Link href="/" className="text-2xl font-bold text-slate-900">
+          <Link href="/" className="text-3xl font-bold text-gray-900 hover:text-blue-700 transition-colors">
             Caleb Cohoe
           </Link>
           
@@ -29,10 +29,10 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-lg transition-colors ${
+                className={`text-lg font-medium transition-colors py-2 px-3 rounded-md ${
                   pathname === item.href
-                    ? 'text-blue-700 font-medium'
-                    : 'text-slate-700 hover:text-slate-900'
+                    ? 'text-blue-700 bg-blue-50'
+                    : 'text-gray-700 hover:text-blue-700 hover:bg-gray-50'
                 }`}
               >
                 {item.label}
@@ -42,7 +42,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="md:hidden p-2 rounded-md hover:bg-gray-100"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,16 +53,16 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-slate-200">
-            <div className="flex flex-col space-y-4">
+          <nav className="md:hidden py-4 border-t border-gray-200">
+            <div className="flex flex-col space-y-3">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`text-lg transition-colors ${
+                  className={`text-lg font-medium transition-colors py-3 px-3 rounded-md ${
                     pathname === item.href
-                      ? 'text-blue-700 font-medium'
-                      : 'text-slate-700 hover:text-slate-900'
+                      ? 'text-blue-700 bg-blue-50'
+                      : 'text-gray-700 hover:text-blue-700 hover:bg-gray-50'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >

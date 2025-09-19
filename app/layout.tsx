@@ -6,12 +6,12 @@ import Header from './components/Header'
 const crimsonText = Crimson_Text({ 
   subsets: ['latin'], 
   weight: ['400', '600', '700'],
-  variable: '--font-crimson'
+  display: 'swap'
 })
 
 const inter = Inter({ 
   subsets: ['latin'],
-  variable: '--font-inter'
+  display: 'swap'
 })
 
 export const metadata: Metadata = {
@@ -25,17 +25,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${crimsonText.variable} ${inter.variable} font-serif`}>
+    <html lang="en" className={crimsonText.className}>
+      <body className="bg-gray-50 text-gray-900 antialiased">
         <Header />
         <main className="min-h-screen bg-white">
           {children}
         </main>
-        <footer className="bg-slate-800 text-slate-300 py-8 mt-16">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <p className="text-sm">
+        <footer className="bg-gray-900 text-gray-300 py-12 mt-20">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <p className="text-base">
               © 2024 Caleb Cohoe | Professor of Philosophy | 
-              <a href="http://msudenver.edu/philosophy" className="text-slate-200 hover:text-white ml-1">
+              <a href="http://msudenver.edu/philosophy" className="text-gray-200 hover:text-white ml-1 underline">
                 Metropolitan State University of Denver
               </a>
             </p>

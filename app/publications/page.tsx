@@ -51,7 +51,7 @@ export default function Publications() {
             <div className="bg-amber-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-slate-800 mb-3">Book Manuscript</h3>
               <p className="text-slate-700 text-sm">
-                Completing a monograph on Augustine's transformation of ancient philosophical ideals 
+                Completing a monograph on Augustine&apos;s transformation of ancient philosophical ideals 
                 of human flourishing.
               </p>
             </div>

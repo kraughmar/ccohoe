@@ -33,7 +33,7 @@ export default function Teaching() {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <Image 
+              <img 
                 src="/images/teaching/classroom.jpg" 
                 alt="Philosophy classroom discussion" 
                 className="w-full h-48 object-cover rounded-lg shadow-md"

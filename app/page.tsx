@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="text-center mb-16">
         <div className="flex justify-center mb-8">
-          <Image 
+          <img 
             src="/images/profile.jpg" 
             alt="Professor Caleb Cohoe" 
             className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-slate-200"

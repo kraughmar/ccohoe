@@ -23,7 +23,7 @@ export default function Research() {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <Image 
+              <img 
                 src="/images/research/aristotle.jpg" 
                 alt="Ancient Greek philosophical texts" 
                 className="w-full h-48 object-cover rounded-lg shadow-md"
@@ -41,7 +41,7 @@ export default function Research() {
           <h2 className="text-3xl font-semibold text-slate-900 mb-6">Augustine: Philosophy and Religious Life</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
             <div className="flex items-center justify-center">
-              <Image 
+              <img 
                 src="/images/research/augustine.jpg" 
                 alt="Medieval manuscripts and Augustine texts" 
                 className="w-full h-48 object-cover rounded-lg shadow-md"
